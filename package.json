@@ -1,7 +1,10 @@
 {
+  "homepage": "http://Vamps023.github.io/Bike-Configurator",
   "name": "package.json",
   "version": "0.0.0",
   "scripts": {
+    "predepoly" : "npm run build",
+    "depoly" : "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"

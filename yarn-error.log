@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\nares\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @types/react-three/drei --force
+
+PATH: 
+  C:\Program Files\PowerShell\7;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Blender Foundation\Blender 3.2;C:\Program Files\PowerShell\7\;C:\Users\nares\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\nares\AppData\Local\Programs\Python\Python311;C:\Users\nares\OneDrive\Documents\smmkdir;C:\Users\nares\AppData\Local\Microsoft\WindowsApps;C:\Users\nares\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nares\AppData\Roaming\npm;C:\Users\nares\AppData\Local\JetBrains\PyCharm 2022.3.1\bin;;C:\Program Files\Blender Foundation\Blender 3.2;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2freact-three/drei: Request "https://registry.yarnpkg.com/@types%2freact-three/drei" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\nares\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66154:18)
+      at Request.self.callback (C:\Users\nares\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\nares\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\nares\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "package.json",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "@react-three/drei": "^9.58.4",
+      "@react-three/fiber": "^8.12.0",
+      "@react-three/postprocessing": "^2.7.0",
+      "@types/three": "^0.149.0",
+      "react": "^18.2.0",
+      "react-colorful": "^5.6.1",
+      "react-dom": "^18.2.0",
+      "three": "^0.150.1",
+      "three-stdlib": "^2.21.8",
+      "valtio": "^1.10.3"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.29",
+      "@types/react-dom": "^18.0.11",
+      "@vitejs/plugin-react": "^3.1.0",
+      "typescript": "^5.0.2",
+      "vite": "^4.2.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
